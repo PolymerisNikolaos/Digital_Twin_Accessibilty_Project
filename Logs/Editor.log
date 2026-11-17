@@ -1,0 +1,525 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 50732)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 67280)
+VBCSCompiler prewarm took 62.30 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Γρηγορης" at "2026-11-16T17:42:35.4994956Z"
+Built from '6000.6/staging' branch; Version is '6000.6.7f1 (b22767f04f04) revision 11675495'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'el' Physical Memory: 16057 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-16T17:42:35Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 34376, path: "C:/Program Files/WindowsApps/UnityTechnologies.UnityHub_3.22.6.65535_x64__2vrhnee42bhxm/app/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              038420ca2b9c48879aed229f2761b06c
+  Correlation Id:          034a62d46579fb997d923d60ab68ecd7
+  External correlation Id: 5579815897154299779
+  Machine Id:              yrjLlaIqg4uER9DyDfdNfwIg/+c=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Γρηγορης" (connect: 0.00s, validation: 0.01s, handshake: 0.11s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Γρηγορης-notifications" at "2026-11-16T17:42:35.6174703Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token ZhL8PfZSyl...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 6872155855282-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.16s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.7f1-x86_64\Editor\Unity.exe
+-projectpath
+C:\Users\Γρηγορης\3d accessibility
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-Γρηγορης
+-hubSessionId
+3720e582-c30f-415e-a383-6b3f1d292d0a
+-accessToken
+ZhL8PfZSyl7Gvbwk6ox7yI8IJuOx9nnaYMZYtAi3t7w006f
+Successfully changed project path to: C:\Users\Γρηγορης\3d accessibility
+C:/Users/Γρηγορης/3d accessibility
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [78940]  Target information:
+
+Player connection [78940]  * "[IP] 172.29.144.1 [Port] 55505 [Flags] 2 [Guid] 1326741243 [EditorId] 1326741243 [Version] 1048832 [Id] WindowsEditor(7,gregs-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [78940]  * "[IP] 192.168.56.1 [Port] 55505 [Flags] 2 [Guid] 1326741243 [EditorId] 1326741243 [Version] 1048832 [Id] WindowsEditor(7,gregs-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [78940]  * "[IP] 10.206.192.132 [Port] 55505 [Flags] 2 [Guid] 1326741243 [EditorId] 1326741243 [Version] 1048832 [Id] WindowsEditor(7,gregs-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [78940] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [78940] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 9ae704a5c4156015d9f092ef57712751
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+[Package Manager] Connected to IPC stream "Upm-66632" after 0.6 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.7f1-x86_64/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/Γρηγορης/3d accessibilityUnity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.7f1 (b22767f04f04)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.7f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Γρηγορης/3d accessibility/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x4628)
+    Vendor:   Intel
+    VRAM:     8028 MB
+    Driver:   32.0.101.6319
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1-x86_64/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.7f1-x86_64/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.7f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011590 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.415 seconds
+Domain Reload Profiling: 3414ms
+	BeginReloadAssembly (337ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (510ms)
+		LoadAssemblies (311ms)
+		TypeCache.Refresh (352ms)
+			TypeCache.ScanAssembly (330ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (2418ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (217ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (1442ms)
+			EditorAssembliesLoaded (3ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 60 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.1.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.ide.rider@570989d4a882)
+    com.unity.ide.visualstudio@2.0.28 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.ide.visualstudio@b5edea5f33f4)
+    com.unity.inputsystem@1.20.1 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.inputsystem@2436e68c60c4)
+    com.unity.splines@2.9.1 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.splines@edbe9aefec91)
+    com.unity.settings-manager@2.1.1 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.searcher@4.9.5 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+  Built-in packages:
+    com.unity.burst@2.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.cinemachine@6.6.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.cinemachine@ea71a007529e)
+    com.unity.collections@6.6.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.collections@4920e8897b5a)
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.render-pipelines.universal@ffe395a3a1d1)
+    com.unity.ugui@2.6.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.ugui@eb824e41fbc7)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.mathematics@1.4.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.mathematics@8306a64d0cd6)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.render-pipelines.core@13460d8ea9e5)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.shadergraph@8b7e693cdbfe)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.test-framework@1.8.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.test-framework@ee3fe9477490)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.test-framework.performance@e8b39e3ef3d9)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\Γρηγορης\3d accessibility\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.10 seconds
+Asset Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/ScreenSpaceReflectionRendererFeature/ScreenSpaceReflectionDepthNormalOnlyTransparentPass.cs has no meta file, but it's in an immutable folder. The asset will be ignored.
+Asset Packages/com.unity.render-pipelines.universal/Tests/Editor/Tools/Converters/ReadonlyMaterialConverter/ReadonlyMaterialConverterTests.MaterialReferenceBuilder.cs has no meta file, but it's in an immutable folder. The asset will be ignored.
+Asset Packages/com.unity.render-pipelines.universal/Tests/Editor/Tools/Converters/ReadonlyMaterialConverter/ReadonlyMaterialConverterTests.MaterialReferenceChanger.cs has no meta file, but it's in an immutable folder. The asset will be ignored.
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.7f1-x86_64\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Γρηγορης/3d accessibility
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.7f1-x86_64\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.7f1-x86_64\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.7f1-x86_64\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.7f1-x86_64\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 0s926ms
+[703/899    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.82 seconds), 1 items updated, 899 evaluated
+AssetDatabase: script compilation time: 1.898453s
+Begin MonoManager ReloadAssembly
+Total cache size 84577648
+Total cache size after purge 84577648, took 00:00:00.4875720
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 12.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.306 seconds
+Domain Reload Profiling: 4981ms
+	BeginReloadAssembly (798ms)
+		DisableScriptedObjects (90ms)
+		CreateAndSetChildDomain (117ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (101ms)
+	initialDomainReloadingComplete (159ms)
+	LoadAllAssembliesAndSetupDomain (1575ms)
+		LoadAssemblies (1148ms)
+		TypeCache.Refresh (299ms)
+			TypeCache.ScanAssembly (270ms)
+		AnalyzeDomain (158ms)
+			BuildScriptInfoCaches (138ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2311ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (244ms)
+			ProcessInitializeOnLoadAttributes (1027ms)
+			ProcessInitializeOnLoadMethodAttributes (194ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (4ms)
+		AwakeInstancesAfterBackupRestoration (52ms)
+Starting new worker id: 0 with log in C:/Users/Γρηγορης/3d accessibility/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=e419145376c8b61418d06a669ff2719c): Total: 8.753 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3669 ms
+		Asset DB Callback time: managed=94 ms, native=108 ms
+		Scripting: domain reloads=1, domain reload time=2904 ms, compile time=1903 ms, other=72 ms
+		Project Asset Count: scripts=1205, non-scripts=2340
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 117.531ms
+	ApplyChangesToAssetFolders: 1.383ms
+	Scan: 300.395ms
+	Collect global state as custom dependencies: 56.465ms
+	CategorizeScriptCompilationAssets: 139.037ms
+	ProcessAssetsWithTransientArtifactChanges: 134.343ms
+	CategorizeAssets: 163.350ms
+	CompileScripts: 1902.528ms
+	ImportOutOfDateAssets: 2377.350ms (2339.006ms without children)
+		ReloadNativeAssets: 0.295ms
+		UnloadImportedAssets: 3.886ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.585ms
+		ImportSchedulerStart: 32.566ms
+	PostProcessAllAssets: 94.527ms
+		MonoPostProcessAllAssets: 94.350ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 38.786ms
+			SyncVS.PostprocessSyncProject 12.484ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 5.428ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.445ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.334ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.562ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.212ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.664ms
+			CinemachineSettings.OnPostprocessAllAssets 0.635ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.587ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.506ms
+			DomainReloadProcessor.OnPostprocessAllAssets 0.466ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.459ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.381ms
+			PipelineAssetProcessor.OnPostprocessAllAssets 0.339ms
+	UnloadStreamsBegin: 3.144ms
+	PersistCurrentRevisions: 0.179ms
+	GenerateScriptTypeHashes: 5.533ms
+	GenerateScriptTypeSerializationHashes: 9.055ms
+	Untracked: 3442.715ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Scanning for USB devices : 23.955ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-3d accessibility
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+LightingSettings: switching bake backend from 2 to 1.
+Loaded scene 'Assets/Starter Assets/Sample/FirstPersonController/Playground.unity'
+	Deserialize:            17.011 ms
+	Integration:            374.000 ms
+	Integration of assets:  0.038 ms
+	Thread Wait Time:       0.613 ms
+	Total Operation Time:   391.662 ms
+Unloading 5037 unused Assets / (7.2 MB). Loaded Objects now: 6812.
+Memory consumption went from 437.7 MB to 430.5 MB.
+Total: 25.489900 ms (FindLiveObjects: 1.517800 ms CreateObjectMapping: 0.956200 ms MarkObjects: 14.326500 ms  DeleteObjects: 7.973800 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\Γρηγορης\3d accessibility\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/Γρηγορης/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+Worker ready: AssetImportWorkerHW0 0
+<RI> Initializing input.
+Using Windows.Gaming.Input
+[Project] Loading completed in 27.366 seconds
+	Project init time: 				17.514 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.609 seconds
+		Asset Database init time: 		1.329 seconds
+		Global illumination init time: 	0.010 seconds
+		Assemblies load time: 			3.798 seconds
+		Unity extensions init time: 	0.041 seconds
+		Asset Database refresh time: 	8.754 seconds
+	Scene opening time: 			8.678 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1794850982408,"processId":66632,"projectLoad":27.365502799999998,"projectInit":17.5142708,"templateInit":0.0,"packageManagerInit":0.6088262,"assetDatabaseInit":1.3288794,"globalIlluminationInit":0.0103505,"assembliesLoad":3.79764,"unityExtensionsInit":0.0407254,"assetDatabaseRefresh":8.7543036,"sceneOpening":8.6778779}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1794850982408,"processId":66632,"editorVersion":"6000.6.7f1 (b22767f04f04)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Created GICache directory at C:/Users/Γρηγορης/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.065s, timestamps: [31.385 - 31.449]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "ZhL8PfZS"... (expires: 2026-11-16T18:06:48Z)
+UPID Received '754d0847-b39f-4746-b07e-7af0235058fe'.
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 0mb
+Couldn't find a readme
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+StarterAssets.ReadmeEditor:SelectReadme () (at Assets/TutorialInfo/Editor/ReadmeEditor.cs:62)
+StarterAssets.ReadmeEditor:SelectReadmeAutomatically () (at Assets/TutorialInfo/Editor/ReadmeEditor.cs:29)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/TutorialInfo/Editor/ReadmeEditor.cs Line: 62)
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+[Licensing::Client] Successfully resolved entitlement details
+
+Asset Pipeline Refresh (id=5c771a09d06f64b4c9efacda879c4207): Total: 0.433 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=430 ms
+		Asset DB Callback time: managed=0 ms, native=1 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1205, non-scripts=2340
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.163ms
+	InvokePackagesCallback: 2.484ms
+	ApplyChangesToAssetFolders: 0.624ms
+	Collect global state as custom dependencies: 6.480ms
+	ProcessAssetsWithTransientArtifactChanges: 0.799ms
+	CategorizeAssets: 266.302ms
+	CompileScripts: 0.052ms
+	ImportOutOfDateAssets: 7.021ms (1.572ms without children)
+		ReloadNativeAssets: 0.183ms
+		UnloadImportedAssets: 0.301ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.861ms
+		ImportSchedulerStart: 4.096ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.584ms
+	UnloadStreamsBegin: 34.350ms
+	PersistCurrentRevisions: 0.187ms
+	Untracked: 94.162ms
+
+Asset Pipeline Refresh (id=9afb891c742224c449161936f8d6806b): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            11.615 ms
+	Integration:            246.985 ms
+	Integration of assets:  0.285 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   258.893 ms
+Asset Pipeline Refresh (id=4182cdaf8f77c154e9e3e70872c0a789): Total: 0.018 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=431aca71c5d007743b485f3d5b711e37): Total: 0.010 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Curl error 6: Could not resolve host: services.unity.com
+UnityConnectWebRequestException: Token Exchange failed due a failure with the web request.
+  at UnityEditor.Connect.TokenExchange.VerifyTokenExchangeResponse (UnityEngine.Networking.UnityWebRequest exchangeRequest) [0x00014] in <10f329ca493444f3928e8ce715a27e16>:0 
+  at UnityEditor.Connect.TokenExchange.TokenExchangeRequestAsync (UnityEditor.Connect.TokenExchangeRequest tokenExchangeRequest, System.Threading.CancellationToken cancellationToken) [0x00195] in <10f329ca493444f3928e8ce715a27e16>:0 
+  at UnityEditor.Connect.TokenExchange.GetServiceTokenAsync (System.String genesisToken, System.Threading.CancellationToken cancellationToken) [0x0007b] in <10f329ca493444f3928e8ce715a27e16>:0 
+  at UnityEditor.Connect.ServiceToken.GetServiceTokenAsync (System.String genesisToken, System.Threading.CancellationToken cancellationToken) [0x000f3] in <10f329ca493444f3928e8ce715a27e16>:0 
+  at UnityEditor.Connect.UnityConnect.RequestNewServiceToken () [0x00080] in <10f329ca493444f3928e8ce715a27e16>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+<>c.<ThrowAsync>b__7_0 (System.Object state) [0x00000] in <a8858c8db8794c73aac95c6a07c9f981>:0 
+  at UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () [0x00000] in <2a0aacfdb6844320ae79174c32157248>:0 
+  at UnityEngine.UnitySynchronizationContext.Exec () [0x00052] in <2a0aacfdb6844320ae79174c32157248>:0 
+  at UnityEngine.UnitySynchronizationContext.ExecuteTasks () [0x0000e] in <2a0aacfdb6844320ae79174c32157248>:0 
+UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+
+Curl error 6: Could not resolve host: engine-data.services.api.unity.com
+Project ID request failed, Reason: Could not resolve host: services.unity.com (0).
+Unknown Unity Connect error (408). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/754d0847-b39f-4746-b07e-7af0235058fe", HTTP error code 0
+.Curl error 6: Could not resolve host: engine-data.services.api.unity.com
+Curl error 6: Could not resolve host: engine-data.services.api.unity.com
+Curl error 6: Could not resolve host: engine-data.services.api.unity.com
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Project ID request failed, Reason: Could not resolve host: services.unity.com (0).
+Unknown Unity Connect error (408). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/754d0847-b39f-4746-b07e-7af0235058fe", HTTP error code 0
+.[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "43m-2au_"... (expires: 2026-11-16T21:06:05Z)
+Project ID request failed, Reason: Could not resolve host: services.unity.com (0).
+Unknown Unity Connect error (408). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/754d0847-b39f-4746-b07e-7af0235058fe", HTTP error code 0
+.[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Project ID request failed, Reason: Could not resolve host: services.unity.com (0).
+Unknown Unity Connect error (408). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/754d0847-b39f-4746-b07e-7af0235058fe", HTTP error code 0
+.Project ID request failed, Reason: Could not resolve host: services.unity.com (0).
+Unknown Unity Connect error (408). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/754d0847-b39f-4746-b07e-7af0235058fe", HTTP error code 0
+.[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "hW6RO1fz"... (expires: 2026-11-16T23:08:27Z)
+Project ID request failed, Reason: Could not resolve host: services.unity.com (0).
+Unknown Unity Connect error (408). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/754d0847-b39f-4746-b07e-7af0235058fe", HTTP error code 0
+.[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=c964446da673397458274fe0f2fb4d22): Total: 0.044 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+MonoPathRemapper: Attempts to remap: 162413; Successful remaps: 15780
+Serialized file version minimum: 22, current 23
+[LAYOUT] About to save layout C:\Users\Γρηγορης\3d accessibility\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/Γρηγορης/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-Γρηγορης-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Γρηγορης channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000015554, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000002ED8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000015554, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000002ED8, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 3676
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1794866464688,"processId":66632,"allocatedMemory":16899959,"memoryLabels":[{"Default":207579},{"Permanent":15516},{"NewDelete":70505},{"Thread":4198024},{"Manager":820189},{"VertexData":8},{"Geometry":824},{"Shader":855257},{"Material":132},{"TextureCache":152},{"GfxDevice":55968},{"Animation":952},{"Audio":408},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":17152},{"Input":45280},{"JobScheduler":256},{"TextLib":21846},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1548960},{"BaseObject":49200},{"Resource":1444},{"Renderer":2504},{"Transform":4781},{"File":37107},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":453784},{"StaticString":3808},{"Utility":2674450},{"Curl":88},{"PoolAlloc":2360},{"AI":80},{"TypeTree":17165},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7296},{"WebRequest":8654},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":540},{"Camera":729},{"Secure":617},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"EntityIdStore":33088},{"Gui":268239},{"EditorUtility":405808},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4522688},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":37787},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":282},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3602},{"Windowing":456},{"TLS":3497},{"Licensing":12816},{"AssetReference":32},{"IPCStream":32}]}
